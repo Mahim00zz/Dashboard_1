@@ -25,7 +25,7 @@ The Financial Dashboard is a full-stack web application built with Next.js. It p
 ## Screenshots
 
 ### Desktop Version
-![Desktop Version]![Screenshot 2024-12-09 184238](https://github.com/user-attachments/assets/f64907db-b4c6-4df7-931c-614e89d291db)
+![Screenshot 2024-12-09 184238](https://github.com/user-attachments/assets/f64907db-b4c6-4df7-931c-614e89d291db)
 ![Screenshot 2024-12-09 184312](https://github.com/user-attachments/assets/0210ebec-721e-4fde-9c2a-0593e4eeaa72)
 ![Screenshot 2024-12-09 184326](https://github.com/user-attachments/assets/eab4b145-d468-46ad-894c-b6fded331c55)
 ![Screenshot 2024-12-09 184337](https://github.com/user-attachments/assets/257879e2-85ea-4ad7-bee4-da30a5b3966c)
