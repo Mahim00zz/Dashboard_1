@@ -84,9 +84,9 @@ Vercel will automatically handle deployment.
 - Use search and pagination to find specific invoices.
 
 # Roadmap
-- **Improve error handling and add more robust validations.
-- **Add more features to the dashboard, such as reporting or data visualization.
-- **Enhance mobile responsiveness and UI/UX design.
+- Improve error handling and add more robust validations.
+- Add more features to the dashboard, such as reporting or data visualization.
+- Enhance mobile responsiveness and UI/UX design.
 
 
 
