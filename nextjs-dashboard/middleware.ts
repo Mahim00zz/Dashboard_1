@@ -1,19 +1,9 @@
-import { NextResponse } from 'next/server';
-import { NextRequest } from 'next/server';
+import NextAuth from 'next-auth';
+import { authConfig } from './auth.config';
 
-export async function middleware(req: NextRequest) {
-  const token = req.cookies.get('next-auth.session-token') || req.cookies.get('__Secure-next-auth.session-token');
-  const { pathname } = req.nextUrl;
-
-  // Redirect unauthenticated users trying to access `/dashboard`
-  if (!token && pathname.startsWith('/dashboard')) {
-    return NextResponse.redirect(new URL('/login', req.url));
-  }
-
-  // Allow all other requests
-  return NextResponse.next();
-}
+export default NextAuth(authConfig).auth;
 
 export const config = {
-  matcher: ['/dashboard/:path*'], // Protect only dashboard routes
+  // https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
+  matcher: ['/((?!api|_next/static|_next/image|.*\\.png$).*)'],
 };
