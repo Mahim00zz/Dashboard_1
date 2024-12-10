@@ -2,6 +2,12 @@
 
 The Financial Dashboard is a full-stack web application built with Next.js. It provides users with a secure platform to manage their financial data, including the ability to view, add, edit, and delete invoices. With built-in authentication and a responsive design, the app ensures a seamless experience on both desktop and mobile devices.
 
+## Login:
+
+Email: user@nextmail.com
+Password: 123456
+
+
 ## Features
 
 - **Public Home Page:** A landing page accessible to all users.
