@@ -26,7 +26,6 @@ Password: 123456
 - **NextAuth.js** for authentication
 - **Vercel** for deployment
 - **Tailwind CSS** for styling
-- **Prisma** for ORM (optional, if you used Prisma in the course)
 
 ## Screenshots
 
